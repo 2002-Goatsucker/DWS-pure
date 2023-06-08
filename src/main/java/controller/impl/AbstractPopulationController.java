@@ -13,7 +13,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public abstract class AbstractPopulationController implements PopulationController {
-    private final int size;
+    private int size;
     private final int generation;
     private final double mutation;
     public Crash crash;
@@ -137,6 +137,10 @@ public abstract class AbstractPopulationController implements PopulationControll
 
     public int getSize() {
         return size;
+    }
+
+    public void setSize(int size){
+        this.size = size;
     }
 
     public int getGeneration() {

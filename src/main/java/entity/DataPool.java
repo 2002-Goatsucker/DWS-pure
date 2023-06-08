@@ -1,6 +1,4 @@
 package entity;
-
-
 import service.algorithm.impl.NSGAII;
 
 import java.util.*;
@@ -34,5 +32,4 @@ public class DataPool {
         disabledIns.clear();
         all.clear();
     }
-
 }
