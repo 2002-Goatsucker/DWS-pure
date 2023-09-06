@@ -1,0 +1,5 @@
+冷启动：ColdStart
+采用随机策略修改基因：SolutionRepair
+直接替换掉受到影响的染色体：SolutionReplace
+使用相似度替换策略修改基因：SimilarityRepair
+使用多种群策略结合相似度替换：MultiPoplulation

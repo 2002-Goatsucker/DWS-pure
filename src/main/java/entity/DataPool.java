@@ -14,7 +14,7 @@ public class DataPool {
     public static double weightVector[];
     public static Random random;
     public static List<Integer> insToType=new ArrayList<>(250);
-    public static List<Integer> accessibleIns=new ArrayList<>();
+    public static List<Integer> accessibleIns = new ArrayList<>();
     public static HashSet<Integer> disabledIns=new HashSet<>();
 
     public static List<List<Chromosome>> all = new LinkedList<>();
